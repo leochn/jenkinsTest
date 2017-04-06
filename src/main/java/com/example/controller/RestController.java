@@ -16,7 +16,7 @@ public class RestController {
 	@RequestMapping("/") 
 	@ResponseBody
 	public String helloIndex(){
-		return "<h2>This is index page!</h2>";
+		return "<h2>This is index page! +++++</h2>";
 	}
 
 }
